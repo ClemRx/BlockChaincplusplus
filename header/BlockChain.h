@@ -8,6 +8,7 @@
 #include <cstdint>
 #include <vector>
 #include "Block.h"
+#include "../header/Transaction.h"
 
 using namespace std;
 
@@ -18,11 +19,17 @@ public:
 public:
     void addBlock(Block bNew);
 
+    void minePendingTransaction(string miningRewardAddress);
+
+    void addTransaction(Transaction transaction);
+
 private:
     uint32_t _nDifficulty;
     vector<Block> _vChain;
 
     Block _getLastBlock() const;
+    vector<Transaction> _pendingTransactions;
+    const int miningReward=100;
 };
 
 

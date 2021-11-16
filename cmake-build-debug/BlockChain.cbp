@@ -86,6 +86,9 @@
 		<Unit filename="/cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/BlockChain.h">
 			<Option target="BlockChain"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/Transaction.h">
+			<Option target="BlockChain"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/sha256.h">
 			<Option target="BlockChain"/>
 		</Unit>
@@ -96,6 +99,9 @@
 			<Option target="BlockChain"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/source/BlockChain.cpp">
+			<Option target="BlockChain"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/source/Transaction.cpp">
 			<Option target="BlockChain"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/source/sha256.cpp">

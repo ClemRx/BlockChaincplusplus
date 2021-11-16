@@ -201,6 +201,30 @@ source/BlockChain.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlockChain.dir/build.make CMakeFiles/BlockChain.dir/source/BlockChain.cpp.s
 .PHONY : source/BlockChain.cpp.s
 
+source/Transaction.o: source/Transaction.cpp.o
+.PHONY : source/Transaction.o
+
+# target to build an object file
+source/Transaction.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlockChain.dir/build.make CMakeFiles/BlockChain.dir/source/Transaction.cpp.o
+.PHONY : source/Transaction.cpp.o
+
+source/Transaction.i: source/Transaction.cpp.i
+.PHONY : source/Transaction.i
+
+# target to preprocess a source file
+source/Transaction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlockChain.dir/build.make CMakeFiles/BlockChain.dir/source/Transaction.cpp.i
+.PHONY : source/Transaction.cpp.i
+
+source/Transaction.s: source/Transaction.cpp.s
+.PHONY : source/Transaction.s
+
+# target to generate assembly for a file
+source/Transaction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlockChain.dir/build.make CMakeFiles/BlockChain.dir/source/Transaction.cpp.s
+.PHONY : source/Transaction.cpp.s
+
 source/sha256.o: source/sha256.cpp.o
 .PHONY : source/sha256.o
 
@@ -243,6 +267,9 @@ help:
 	@echo "... source/BlockChain.o"
 	@echo "... source/BlockChain.i"
 	@echo "... source/BlockChain.s"
+	@echo "... source/Transaction.o"
+	@echo "... source/Transaction.i"
+	@echo "... source/Transaction.s"
 	@echo "... source/sha256.o"
 	@echo "... source/sha256.i"
 	@echo "... source/sha256.s"

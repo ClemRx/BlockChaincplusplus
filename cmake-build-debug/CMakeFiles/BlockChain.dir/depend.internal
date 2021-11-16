@@ -4,16 +4,23 @@
 CMakeFiles/BlockChain.dir/main.cpp.o
  /cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/Block.h
  /cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/BlockChain.h
+ /cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/Transaction.h
  /cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/sha256.h
  /cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/main.cpp
 CMakeFiles/BlockChain.dir/source/Block.cpp.o
  /cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/Block.h
+ /cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/Transaction.h
  /cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/sha256.h
  /cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/source/Block.cpp
 CMakeFiles/BlockChain.dir/source/BlockChain.cpp.o
  /cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/Block.h
  /cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/BlockChain.h
+ /cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/Transaction.h
  /cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/source/BlockChain.cpp
+CMakeFiles/BlockChain.dir/source/Transaction.cpp.o
+ /cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/Transaction.h
+ /cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/sha256.h
+ /cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/source/Transaction.cpp
 CMakeFiles/BlockChain.dir/source/sha256.cpp.o
  /cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/sha256.h
  /cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/source/sha256.cpp

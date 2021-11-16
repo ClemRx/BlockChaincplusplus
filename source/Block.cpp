@@ -5,9 +5,11 @@
 #include "../header/Block.h"
 #include "../header/sha256.h"
 #include <sstream>
-Block::Block(uint32_t nIndexIn, const string &sDataIn) {
+
+Block::Block(uint32_t nIndexIn, vector<Transaction> transactions) {
     _nNonce = -1;
     _tTime = time(nullptr);
+    _transactions = transactions;
 }
 
 string Block::getHash() {
@@ -33,7 +35,15 @@ void Block::MineBlock(uint32_t nDifficulty) {
 
 inline string Block::_CalculateHash() const {
     stringstream ss;
-    ss << _nIndex << _tTime << _sData << _nNonce << sPrevHash;
+    ss << _nIndex << _tTime << this->transactionsToString() << _nNonce << sPrevHash;
 
     return sha256(ss.str());
+}
+
+string Block::transactionsToString() const {
+    stringstream ss;
+    for(auto transaction : _transactions){
+        ss << transaction.getSignature();
+    }
+    return ss.str();
 }

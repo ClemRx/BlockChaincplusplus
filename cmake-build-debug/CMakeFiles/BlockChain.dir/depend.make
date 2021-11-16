@@ -4,16 +4,23 @@
 CMakeFiles/BlockChain.dir/main.cpp.o: \
  ../header/Block.h \
  ../header/BlockChain.h \
+ ../header/Transaction.h \
  ../header/sha256.h \
  ../main.cpp
 CMakeFiles/BlockChain.dir/source/Block.cpp.o: \
  ../header/Block.h \
+ ../header/Transaction.h \
  ../header/sha256.h \
  ../source/Block.cpp
 CMakeFiles/BlockChain.dir/source/BlockChain.cpp.o: \
  ../header/Block.h \
  ../header/BlockChain.h \
+ ../header/Transaction.h \
  ../source/BlockChain.cpp
+CMakeFiles/BlockChain.dir/source/Transaction.cpp.o: \
+ ../header/Transaction.h \
+ ../header/sha256.h \
+ ../source/Transaction.cpp
 CMakeFiles/BlockChain.dir/source/sha256.cpp.o: \
  ../header/sha256.h \
  ../source/sha256.cpp

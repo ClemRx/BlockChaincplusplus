@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/BlockChain.dir/main.cpp.o"
   "CMakeFiles/BlockChain.dir/source/Block.cpp.o"
   "CMakeFiles/BlockChain.dir/source/BlockChain.cpp.o"
+  "CMakeFiles/BlockChain.dir/source/Transaction.cpp.o"
   "CMakeFiles/BlockChain.dir/source/sha256.cpp.o"
   "libBlockChain.dll.a"
 )

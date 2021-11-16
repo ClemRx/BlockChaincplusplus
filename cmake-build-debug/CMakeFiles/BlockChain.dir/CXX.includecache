@@ -11,6 +11,10 @@ cstdint
 -
 iostream
 -
+vector
+-
+../header/Transaction.h
+/cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/Transaction.h
 
 /cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/BlockChain.h
 cstdint
@@ -19,6 +23,14 @@ vector
 -
 Block.h
 /cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/Block.h
+../header/Transaction.h
+/cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/Transaction.h
+
+/cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/Transaction.h
+cstdint
+-
+iostream
+-
 
 /cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/sha256.h
 string
@@ -33,6 +45,8 @@ cstdint
 /cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/BlockChain.h
 ./header/sha256.h
 /cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/sha256.h
+./header/Transaction.h
+/cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/Transaction.h
 
 /cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/source/Block.cpp
 ../header/Block.h
@@ -46,11 +60,11 @@ sstream
 ../header/BlockChain.h
 /cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/BlockChain.h
 
-/cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/source/sha256.cpp
-cstring
--
-fstream
--
+/cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/source/Transaction.cpp
+../header/Transaction.h
+/cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/Transaction.h
 ../header/sha256.h
 /cygdrive/c/Users/Clément/Workspaces/BlockChaincplusplus/header/sha256.h
+sstream
+-
 
